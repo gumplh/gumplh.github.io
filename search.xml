@@ -24,7 +24,8 @@
     <content><![CDATA[<p>hello</p>
 ]]></content>
       <categories>
-        <category>笔记 - 互联网</category>
+        <category>笔记</category>
+        <category>互联网</category>
       </categories>
       <tags>
         <tag>测试</tag>
