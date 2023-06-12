@@ -1,59 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>push_back和emplace_back的区别</title>
-      <link href="/2023/06/12/push_back%E5%92%8Cemplace_back%E7%9A%84%E5%8C%BA%E5%88%AB/"/>
-      <url>/2023/06/12/push_back%E5%92%8Cemplace_back%E7%9A%84%E5%8C%BA%E5%88%AB/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
+<search>
+  <entry>
+    <title>test</title>
+    <url>/2023/06/07/test/</url>
+    <content><![CDATA[<p>hello</p>
+]]></content>
       <categories>
-          
-          <category> code-tips </category>
-          
+        <category>互联网</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> C++ </tag>
-            
-            <tag> STL </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>test</title>
-      <link href="/2023/06/07/test/"/>
-      <url>/2023/06/07/test/</url>
-      
-        <content type="html"><![CDATA[<p>hello</p>]]></content>
-      
-      
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>push_back和emplace_back的区别</title>
+    <url>/2023/06/12/push_back%E5%92%8Cemplace_back%E7%9A%84%E5%8C%BA%E5%88%AB/</url>
+    <content><![CDATA[<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>当使用参数去填充vector时，emplace_back的效率更高，因为只生成了一次对象，而push_back需要生成两次对象（一次使用参数构造函数构造临时对象 + 一次使用移动构造函数构造vector中的对象）；当使用左值对象、右值对象（临时对象）去填充vector时，emplace_back和push_back的效率相同。</p>
+]]></content>
       <categories>
-          
-          <category> 互联网 </category>
-          
+        <category>code-tips</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 测试 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>C++</tag>
+        <tag>STL</tag>
+      </tags>
+  </entry>
 </search>
